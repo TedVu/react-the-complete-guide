@@ -8,4 +8,8 @@ var greeter = "hello world";
 
 console.log(greeter);
 
-// example 2:
+// example 2: var allows reassignment of variables
+var a = "ted";
+a = "kevin";
+
+console.log(a);
