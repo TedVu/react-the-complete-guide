@@ -13,3 +13,23 @@ var a = "ted";
 a = "kevin";
 
 console.log(a);
+
+// example 3: var can be redeclared
+var a = "mia";
+console.log(a);
+
+// javascript hoisting: moving all variable declarations to the top of the current scope
+// note that the code below will return undefined because it just moves the declration and not the initializations.
+console.log(b);
+var b = "ted";
+
+/*
+    let statement declares a block-scoped
+*/
+
+for (let i = 0; i < 3; i++) {
+  console.log(i);
+}
+
+// this will throw an error as its current scope is the block
+console.log(i);
