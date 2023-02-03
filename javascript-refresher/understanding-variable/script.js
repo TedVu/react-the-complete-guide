@@ -33,3 +33,7 @@ for (let i = 0; i < 3; i++) {
 
 // this will throw an error as its current scope is the block
 console.log(i);
+
+/*************************/
+// 4 main differences
+// scoping, hoisting, variable redeclaration and variable reassignment
